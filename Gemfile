@@ -34,6 +34,8 @@ end
 gem 'pry'
 gem 'protected_attributes'
 gem 'pg', :group => :production
+gem 'rails_12factor', :group => :production
+
 group :development, :test do
 
   gem 'dotenv-rails'
