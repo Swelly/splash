@@ -1,0 +1,18 @@
+<div class="container" id="splash-wrapper">
+  <div id="logo-wrapper">
+    <%= image_tag "Logo.svg", height:"650px", id:"logo"%>
+  </div>
+  <div id="form">
+      <%= form_tag("/add-email", method: "post",  remote: true) do %>
+        <%= text_field_tag(:email, nil, class:"form-control", id:"email-input-form", placeholder:"Email:") %>
+        <%= submit_tag("Submit", class:"btn", id:"submit-button") %>
+      <% end %>
+  </div>
+  <div id="thank-you" >
+    <h1>Thanks. Want to share it with anyone?</h1>
+    <div id="social-wrapper">
+       <a class="btn btn-inverse" href="https://www.facebook.com/sharer/sharer.php?u=https://shoutinline.com"
+         target="_blank"><%= image_tag "facebook_icon.png", height: "100", width: "100", id:"fb-link" %></a>
+      <%= image_tag "twitter_icon.png", height: "100", width: "100", id:"tw-link"  %></div>
+  </div>
+</div>
