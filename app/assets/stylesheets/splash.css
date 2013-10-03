@@ -1,0 +1,54 @@
+#splash-wrapper{
+  width: 400px;
+  margin-top: 5%;
+}
+
+#logo-wrapper{
+  width: 400px;
+  margin-left: -145px;
+}
+
+#logo{
+  margin-left: 140px;
+}
+
+/*Input Form*/
+#form{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 400px;
+}
+
+#email-input-form{
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 31px;
+}
+
+#submit-button{
+  background-color: #70d5e0;
+  color: white;
+}
+
+#thank-you{
+  margin-top: -75px;
+}
+
+#thank-you h1{
+  text-align: center;
+  font-size: 26px;
+  width: 370px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#fb-link{
+  margin-left: -8px;
+}
+
+#tw-link{
+  margin-left: -32px;
+}
