@@ -1,5 +1,6 @@
 #splash-wrapper{
   width: 400px;
+  margin-top: 15%;
 }
 
 #logo-wrapper{
@@ -8,7 +9,7 @@
 }
 
 #logo{
-  margin-left: 20px;
+  margin-left: 85px;
 }
 
 /*Input Form*/
@@ -16,7 +17,7 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -60px;
+  margin-top: 50px;
   width: 400px;
 }
 
