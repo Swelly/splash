@@ -36,6 +36,7 @@ gem 'protected_attributes'
 gem 'pg', :group => :production
 gem 'rails_12factor', :group => :production
 gem 'newrelic_rpm', :group => :production
+gem 'unicorn', :group => :production
 
 group :development, :test do
 
