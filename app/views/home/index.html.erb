@@ -4,12 +4,13 @@
   </div>
   <div id="form">
       <%= form_tag("/add-email", method: "post",  remote: true) do %>
-        <%= text_field_tag(:email, nil, class:"form-control", id:"email-input-form", placeholder:"Email:") %>
-        <%= submit_tag("Submit", class:"btn", id:"submit-button") %>
+        <%= text_field_tag(:email, nil, class:"form-control", id:"email-input-form", placeholder:"Email") %>
+        <%= submit_tag("Submit", class:"btn", id:"submit-button", disabled:"disabled") %>
       <% end %>
   </div>
   <div id="thank-you" >
-    <h1>Thanks. Want to share it with anyone?</h1>
+    <h1>Thanks!</h1>
+    <h2>Want to share with anyone?</h2>
     <div id="social-wrapper">
        <a class="btn btn-inverse" href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=shoutinline.com&p[images][0]=http://protected-taiga-4545.herokuapp.com/assets/Logo-b893de31123bbf0b38cabe3ecc8f643d.svg&p[title]=Shout&p[summary]="
          target="_blank"><%= image_tag "facebook_icon.png", height: "100", width: "100", id:"fb-link" %></a>
